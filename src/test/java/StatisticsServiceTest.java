@@ -9,12 +9,4 @@ public class StatisticsServiceTest {
         long actual = service.findMax(incomesInBillions);
         Assertions.assertEquals(expected, actual);
     }
- @Test
-void currentMax() {
-    ru.netology.statistic.StatisticsService service = new ru.netology.statistic.StatisticsService();
-    long[] income = {0};
-    long expected = 0;
-    long actual = service.currentMax(income);
-    Assertions.assertEquals(expected, actual);
-}
 }

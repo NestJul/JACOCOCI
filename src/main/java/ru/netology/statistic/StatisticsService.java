@@ -8,9 +8,4 @@ public class StatisticsService {
             }
         }
         return currentMax;
-    }
-
-    public long currentMax(long[] income) {
-        return 0;
-    }
-}
+    }}
